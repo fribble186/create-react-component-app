@@ -1,0 +1,31 @@
+{
+  "name": "create-react-component-app",
+  "version": "1.1.0",
+  "description": "create a new react component project",
+  "keywords": ["node.js", "javascript", "react", "react component", "scaffold", "webpack"],
+  "main": "bin/index.js",
+  "bin": {
+    "create-cli": "bin/index.js"
+  },
+  "scripts": {
+  },
+  "author": {
+    "name": "fribble186",
+    "email": "fribblepeng@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fribble186/create-react-component-app"
+  },
+  "homepage": "https://github.com/fribble186/create-react-component-app",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "chalk": "^4.1.2",
+    "commander": "^8.1.0",
+    "fs-extra": "^10.0.0",
+    "inquirer": "^8.1.2",
+    "unzip": "^0.1.11",
+    "unzipper": "^0.10.11"
+  }
+}
